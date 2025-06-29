@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Documentataion of C</title>
+  <link rel="stylesheet" href="styles.css">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+</head>
+<body>
+  <nav id="navbar">
+    <header><h1>C</h1></header>
+    <li><a class="nav-link" href="#Documentation_of_C">Documentation of C</a></li>
+    <li><a class="nav-link" href="#Why_C">Why C</a></li>
+    <li><a class="nav-link" href="#First_Program_in_C">First Program in C</a></li>
+    <li><a class="nav-link" href="#Data_types_in_C">Data types in C</a></li>
+    <li><a class="nav-link" href="#Keywords_and_Variables">Keywords and Variables</a></li>
+    <li><a class="nav-link" href="#Loops_in_C">Loops in C</a></li>
+    <li><a class="nav-link" href="#C_and_C++_Relation">C and C++ Relation</a></li>
+    <li><a class="nav-link" href="#Advantages_and_Disadvantages">Advantages and Disadvantages</a></li>
+  </nav>
+<main id="main-doc">
+<section class="main-section" id="Documentation_of_C">
+  <header><h2>Documentation of C</h2></header>
+  <h3>Introdouction to C</h3> 
+  <p>C is a procedural programming language developed by Dennis Ritchie in 1972 at Bell Laboratories of AT&T Labs. It was primarily designed for system programming, particularly for writing the UNIX operating system
+  </p>
+</section>
+<section class="main-section" id="Why_C">
+<header><h3>Why C</h3></header>
+  <ul>
+    <li><p>Efficient Programming Language</p></li>
+    <li><p>No 1 Language in less <a href="https://thenewstack.io/which-programming-languages-use-the-least-electricity/"> energy consumtion</a>
+    </p></li>
+    <li><p>Best language to program hardware components</p></li>
+  </ul>
+</section>
+<section class="main-section" id="First_Program_in_C">
+  <header> <h3>First Program in C</h3></header>
+  <div class="code1">
+    <div class="code">
+      <pre><code>
+#include &lt;stdio.h&gt;
+void main() {
+
+    printf("Hello World");
+}
+      </code></pre>
+    </div>
+
+    <div class="code">
+      <pre><code>
+// Output
+
+Hello World
+      </code></pre>
+    </div>
+  </div>
+</section>
+
+<section class="main-section" id="Data_types_in_C">
+  <header><h3>Data types in C</h3></header>
+  <p>The three classifications:</p>
+  <div class="code1">
+    <div class="code">
+      <h5>Premitive</h5>
+      <ul>
+        <li>Integer</li>
+        <li>Character</li>
+        <li>Floating point</li>
+        <li>Void</li>
+      </ul>
+    </div>
+    <div class="code">
+      <h5>Function</h5>
+      <ul>
+        <li>Array</li>
+        <li>Pointer</li>
+        <li>Floating point</li>
+        <li>Reference</li>
+      </ul>
+    </div>
+    <div  class="code">
+      <h5>Class</h5>
+      <ul>
+        <li>Structure</li>
+        <li>Union</li>
+        <li>Enum</li>
+        <li>Typedef</li>
+      </ul>
+    </div>
+  </div>
+</section>
+<section class="main-section" id="Keywords_and_Variables">
+  <header><h3>Keywords and Variables</h3></header>
+  <p>Variables cannot be <b>keyword</b> and canot start with number and should not contain space.. </p>
+  <div class="code">
+    <p>The keywords are:</p>
+    <ul>
+
+      <li>auto</li> <li>double</li> <li>int</li>  <li>struct </li>
+<li>break</li>      <li>else</li>       <li>long</li>       <li>switch</li>
+
+<li>case</li>       <li>enum</li>       <li>register</li>   <li>typedef</li>
+<li>char </li>      <li>extern</li>     <li>return</li>     <li>union</li>
+
+<li>const</li>      <li>float</li>      <li>short</li>      <li>unsigned</li>
+<li>continue</li>   <li>for</li>        <li>signed</li>     <li>void</li>
+
+<li>default</li>    <li>goto</li>       <li>sizeof</li>     <li>volatile</li>
+<li>do </li>        <li>if</li>         <li>static</li>li>          <li>while</li>
+    </ul>
+  </div>
+</section>
+<section class="main-section" id="Loops_in_C">
+  <header><h3>Loops in C</h3></header>
+  <p>Three type of loops For,While,Do-While</p>
+  <div class="code1">
+    <div class="code">
+      <pre><code>
+#include &lt;stdio.h&gt;
+
+void main() {
+
+    for(int i=0;i<11;i++){
+
+    printf("%d\n",i);
+
+    }
+}
+      </code></pre>
+    </div>
+    
+    <div class="code">
+      <pre><code>
+#include &lt;stdio.h&gt;
+void main() {
+    int i=0;
+    While(i<11){
+      
+    printf("%d\n",i);
+
+    i++;
+    }
+}
+      </code></pre>
+    </div>
+    <div class="code">
+      <pre><code>
+#include <stdio.h>
+
+void main() {
+    int i = 0;
+    
+    do {
+        printf("%d\n", i);
+        i++;
+    } while(i < 11);
+}
+      </code></pre>
+    </div>
+  </div>
+</section>
+<section class="main-section" id="C_and_C++_Relation">
+  <header><h3>C and C++ Relation</h3></header>
+  <ul>
+  <li>Just C with extra features</li>
+  <li>Specality liest in oops(Object Oriented Programming) concept</li>
+  <li>Similar Syntax</li>
+  </ul>
+</section>
+<section class="main-section" id="Advantages_and_Disadvantages">
+  <header><h3>Advantages and Disadvantages</h3></header>
+  <ul>
+  <li><p><b>A:</b>Faster and Efficient</p></li>
+  <li><p><b>D:</b>Not many build in libraries available</p></li>
+  </ul>
+</section>
+</main>
+</body>
+<html>
+
+

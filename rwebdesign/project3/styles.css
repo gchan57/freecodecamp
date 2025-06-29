@@ -1,0 +1,72 @@
+body{
+background-color:rgb(224, 221, 228);
+display:flex;
+padding:0 100px 0 300px;
+}
+h1,#Documentation_of_C h2{
+  padding:auto;
+  text-align:center;
+}
+body #navbar{
+  background-color:rgb(188, 166, 218);
+  padding:0 50px 0 0 ;
+  margin-right: 20px;
+   border-radius:10px;
+   position: fixed;
+   min-width: 140px;
+  top: 0px;
+  left: 0px;
+  width: 90px;
+  height: 100%;
+  border-right: solid rgb(108, 78, 150) 2px;
+}
+.code{
+  border:solid rgb(108, 78, 150) 2px;
+  background-color:rgb(188, 166, 218);
+  height:180px;
+  width:200px;
+  border-radius:10px;
+  padding:12px 2px 2px 12px;
+   margin-right: 20px;
+   box-shadow: 5px 5px 10px 0 rgba(63, 36, 102, 0.939)
+}
+
+.code1{
+  display:flex;
+}
+@media(max-width:800px){
+  body{
+    background-color:rgb(224, 221, 228);
+padding:0 100px 0 230px;
+}
+
+  }
+
+#Keywords_and_Variables .code{
+  background-color:rgb(188, 166, 218);
+  height:180px;
+  width:250px;
+  border-radius:10px;
+  padding:12px 2px 2px 12px;
+   margin-right: 20px;
+   overflow:  auto  ;
+}
+#navbar ul {
+  height: 88%;
+  padding: 0;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+#navbar li {
+  color: #4d4e53;
+  border-top: 1px solid;
+  list-style: none;
+  position: relative;
+  width: 100%;
+}
+#navbar a {
+  display: block;
+  padding: 10px 30px;
+  color: #4d4e53;
+  text-decoration: none;
+}
