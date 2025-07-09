@@ -2,3 +2,41 @@
   height:100px;
   width:auto;
 }
+
+li{
+  list-style:none;
+}
+
+.navdiv{
+  display:flex;
+  flex-direction:row;
+}
+#nav-bar ul{
+  display:flex;
+   flex-direction:row;
+}
+li a{
+  display:block;
+  text-align: center;
+  padding: 5px 60px;
+  text-decoration: none;
+  color:rgba(10, 66, 22, 0.667);
+  font-size:35px;
+}
+@media (max-width:600px){
+  #header-img{
+    height:80px;
+  }
+  li a{
+  display:block;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  color:rgba(10, 66, 22, 0.667);
+  font-size:15px;
+}
+}
+a:hover{
+  background-color:rgba(171, 228, 169, 0.667);
+  border-radius:50%;
+}
