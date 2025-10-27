@@ -1,0 +1,24 @@
+.hclass{
+  margin :0;
+  text-align:center;
+  background-color:rgb(127, 46, 46);
+  border-radius:5px;
+}
+body{
+  background-color:rgb(227, 165, 113);
+}
+.d1{
+margin:10% 40%;
+}
+#convert-btn{
+margin:10% 40%;
+}
+button{
+  border-radius:5px;
+  background-color:rgba(148, 48, 48, 0.54);
+}
+#output{
+  text-align:center;
+  background-color:rgba(148, 48, 48, 0.54);
+  border-radius:5px;
+}
