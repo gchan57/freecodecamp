@@ -1,0 +1,10 @@
+body{
+  background-color:rgb(255, 253, 219);
+  align-items:center;
+  display:flex;
+  flex-direction:coloumn;
+  justify-content:center;
+  min-height:100vh;
+  margin:0;
+  gap:5px;
+}
